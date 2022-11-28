@@ -217,3 +217,24 @@ Cisco Packet Tracer adalah aplikasi untuk mensimulasikan jaringan komputer secar
 ![gambar](https://www.researchgate.net/publication/263543154/figure/fig4/AS:669403691618305@1536609685176/A-successful-ping-process-from-PC-to-router.jpg)
 
 
+### Pertanyaan
+1. Apa yang dimaksud dengan Cisco Packet Tracer?
+2. Apa saja yang dapat dilakukan dengan Cisco Packet Tracer?
+3. Apa saja persiapan yang harus dilakukan sebelum menggunakan Cisco Packet Tracer?
+4. Apa yang dimaksud dengan IP Address, Subnet Mask, Default Gateway, dan DNS Server?
+5. Apa yang dimaksud dengan ping?
+6. Apa yang dimaksud dengan ping berhasil?
+7. Apa yang dimaksud dengan ping gagal?
+8. Apa yang dimaksud dengan ping timeout?
+9. Apa yang dimaksud dengan ping destination host unreachable?
+10. Apa yang dimaksud dengan ping request timed out?
+11. Apa yang dimaksud dengan ping request could not find host?
+
+
+### Referensi
+1. https://www.researchgate.net/figure/A-successful-ping-process-from-PC-to-router_fig4_263543154
+2. https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-12-2/118201-technote-12-2t-00.html
+3. Ali M. Al-Mahmoud, “Design and Implementation of a Network Monitoring System Using SNMP Protocol”, International Journal of Computer Science and Information Technologies, Vol. 5 (4), 2014, 4449-4453.
+5. Cisco Packet Tracer, https://www.netacad.com/courses/packet-tracer
+
+
