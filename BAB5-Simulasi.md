@@ -74,3 +74,31 @@ Jika ip address yang melewati Router0 dan menuju network 10.0.0.0 dengan mask/8 
 1. Pada workstation 1, buka command prompt dan ketikkan `ping 192.168.1.1 menuju  PC1(10.0.0.1).` Berikut adalah hasilnya.
 
 ![image](https://akupunyenetwork.com/wp-content/uploads/2021/07/VTP-ping-verifying.png)
+
+### Kesimpulan
+1. Dengan menggunakan Router, kita dapat menghubungkan beberapa network yang berbeda sehingga dapat saling berkomunikasi.
+2. Router dapat menghubungkan network dengan menggunakan IP Address.
+3. Router dapat menghubungkan network dengan menggunakan MAC Address.
+4. Router dapat menghubungkan network dengan menggunakan routing protocol.
+5. Router dapat menghubungkan network dengan menggunakan routing table.
+6. Sebuah network dapat terhubung dengan beberapa Router.
+7. fungsi Router adalah untuk mengarahkan paket data menuju tujuan yang dituju.
+8. Pada percobaan kali ini, kita telah berhasil menghubungkan 2 network dengan menggunakan Router.
+9. Host di network 1 dapat berkomunikasi dengan host di network 2 dikarenakan Router dapat mengarahkan paket data menuju tujuan yang dituju.
+
+### Pertanyaan
+1. Apa yang dimaksud dengan Router?
+2. Apa fungsi Router?
+3. Apa yang dimaksud dengan routing table?
+4. Apa yang dimaksud dengan routing protocol?
+5. Apa yang dimaksud dengan IP Address?
+6. Apa yang dimaksud dengan MAC Address?
+7. Apa yang dimaksud dengan network?
+8. Apa yang dimaksud dengan subnet?
+9. Apa yang dimaksud dengan broadcast domain?
+10. Apa yang dimaksud dengan collision domain?
+11. Bagaimana cara menghubungkan 2 network dengan menggunakan Router?
+12. Jelaskan langkah-langkah untuk menghubungkan 2 network dengan menggunakan Router.
+13. Buatlah sebuah routing table untuk menghubungkan 3 network dengan menggunakan Router.
+14. Dalam sebuah network, terdapat 3 host. Host 1 dan host 2 berada di network 1 dan host 3 berada di network 2. Buatlah sebuah routing table untuk menghubungkan 2 network dengan menggunakan Router.
+15. Ketika kita menghubungkan 2 network dengan menggunakan Router, apakah host di network 1 dapat berkomunikasi dengan host di network 2? Jelaskan!
