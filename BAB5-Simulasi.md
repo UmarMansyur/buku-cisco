@@ -50,6 +50,27 @@ Setelah itu lakukan konfigurasi sebagaimana berikut:
 | C | 192.168.1.0/24| FastEthernet0/0 | --- | 0/0|ß
 
 Keterangan:
-Jika ip address yang melewati Router0.
-Jika terdapat 
+Jika ip address yang melewati Router0 dan menuju network 10.0.0.0 dengan mask/8 maka paket data akan dilewati ke interface FastEthernet0/1. Type C berarti connected atau alamat yang dituju adalah alamat yang terhubung langsung dengan Router0 (workstation 1) sehingga tidak membuthkan Next Hop IP (Ip router lain).
 
+### Konfigurasi Router Via CLI CISCO IOS
+1. Masuk ke CLI CISCO IOS dengan cara klik kanan pada Router0 dan pilih Console. Berikut adalah tampilan CLI CISCO IOS. 
+
+![gambar](https://i.ytimg.com/vi/nQ65Vq0UMrg/maxresdefault.jpg)
+
+2. Ketik `n` pada prompt Continue with configuration dialog? [yes/no]: agar IOS langsung masuk ke CLI
+3. Tekan Enter ketika muncul tulisan Press RETURN to get started!
+4. Kemudian akan dimunculkan prompt Router> yang artinya kita sudah masuk ke CLI CISCO IOS. Mulai dari sini, disebut sebagai user mode. 
+5. Untuk masuk ke privileged mode, ketikkan `enable` pada prompt Router> dan tekan Enter. Kemudian akan dimunculkan prompt Router# yang artinya kita sudah masuk ke privileged mode.
+6. Jika muncul prompt Router# maka kita sudah masuk ke privileged mode. Untuk masuk ke global configuration mode, ketikkan `configure terminal` pada prompt Router# dan tekan Enter. Kemudian akan dimunculkan prompt Router(config)# yang artinya kita sudah masuk ke global configuration mode.
+7. Untuk mengatur IP Address pada interface 1 Router 0, ketikkan `interface fastEthernet0/0` pada prompt Router(config)# dan tekan Enter. Kemudian akan dimunculkan prompt Router(config-if)# yang artinya kita sudah masuk ke interface configuration mode.
+8. Untuk mengatur IP Address pada interface 1 Router 0, ketikkan `ip address 192.158.1.5 255.255.255.0` pada prompt Router(config-if)# dan tekan Enter. Kemudian akan dimunculkan prompt Router(config-if)# yang artinya kita sudah masuk ke interface configuration mode.
+9. ketik perintah `interfce fastEthernet0/0` setelah prompt Router(config)# dan tekan Enter. Kemudian akan dimunculkan prompt Router(config-if)# yang artinya kita sudah masuk ke interface configuration mode.
+10. Selanjutnya ketikkan `no shutdown` pada prompt Router(config-if)# dan tekan Enter. Kemudian akan dimunculkan prompt Router(config-if)# yang artinya kita sudah masuk ke interface configuration mode.
+11. Untuk keluar dari interface configuration mode, ketikkan `exit` pada prompt Router(config-if)# dan tekan Enter. Kemudian akan dimunculkan prompt Router(config)# yang artinya kita sudah keluar dari interface configuration mode.
+12. Sampai tahap ini kita sudah berhasil mengatur IP Address pada interface 1 Router 0. Untuk melihat konfigurasi yang telah kita lakukan, ketikkan `show ip interface brief` pada prompt Router(config)# dan tekan Enter. Berikut adalah hasil konfigurasi yang telah kita lakukan. 
+13. Lakukan hal yang sama untuk mengatur IP Address pada interface 2.
+
+### Melakukan PING ke host di network lain
+1. Pada workstation 1, buka command prompt dan ketikkan `ping 192.168.1.1 menuju  PC1(10.0.0.1).` Berikut adalah hasilnya.
+
+![image](https://akupunyenetwork.com/wp-content/uploads/2021/07/VTP-ping-verifying.png)
