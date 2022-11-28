@@ -79,4 +79,16 @@ Dari beberapa percobaan yang telah dilakukan maka, dapat disimpulkan bahwa jarin
 Dari beberapa percobaan yang telah dilakukan maka, dapat disimpulkan bahwa jaringan nirkabel dapat tersabung antara komputer melalui access point. Hal ini dikarenakan default gateway PC0 dan PC1 menuju ip dari access point.
 
 
+## Pertanyaan
+1. Jelaskan apa yang dimaksud dengan jaringan nirkabel?
+2. Jelaskan apa yang dimaksud dengan jaringan nirkabel Wi-Fi?
+3. Jelaskan apa yang dimaksud dengan jaringan nirkabel 3G?
+4. Jelaskan apa yang dimaksud dengan jaringan nirkabel 4G?
+5. Jelaskan apa yang dimaksud dengan jaringan nirkabel 5G?
+6. Jelaskan apa yang dimaksud dengan access point?
+7. Apakah jaringan nirkabel Wi-Fi mempunyai kecepatan yang lebih tinggi dibandingkan dengan jaringan nirkabel 3G dan jaringan nirkabel 4G?
+8. Bagaimana cara untuk mengetahui apakah PC0 dan PC1 sudah terkoneksi dengan PCI melalui jaringan nirkabel melalui akses point?
+9. Bisakah jaringan nirkabel Wi-Fi dapat tersambung antara komputer melalui access point?
+10. Ketika PC0 dan PC1 sudah terkoneksi dengan PCI melalui jaringan nirkabel melalui akses point, apakah default gateway PC0 dan PC1 menuju ip dari access point? Jelaskan alasannya!
+
 

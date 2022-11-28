@@ -29,4 +29,17 @@ Double klik pada PC0, lalu buka browser. Ketikkan alamat IP address dari server0
 4. HTTP merupakan protokol yang digunakan untuk mengirimkan data antara client dan server di packet tracer.
 5. Workstation dan server harus terhubung langsung dengan kabel --tipe-cross.
 6. Jika konfigurasi yang dilakukan benar, maka akan muncul halaman default dari server.
-7. Web browser di workstation digunakan untuk mengakses server.ß
+7. Web browser di workstation digunakan untuk mengakses server.
+
+### Pertanyaan
+1. Apa itu HTTP ?
+2. Apa itu workstation ?
+3. Apa itu server ?
+5. Apa yang harus dilakukan agar workstation dapat mengakses server ?
+6. Apa yang harus dilakukan agar server dapat menerima request dari workstation ?
+7. Apa yang harus dilakukan agar server dapat mengirimkan response ke workstation ?
+8. Apa yang harus dilakukan agar workstation dapat menerima response dari server ?
+9. Apa yang harus dilakukan agar workstation dapat menampilkan halaman default dari server ?
+10. Bagaimana cara mengubah port default dari 80 ke port lainnya ?
+11. Bagaimana cara mengubah default document yang akan ditampilkan oleh server ?
+12. Apakah workstation dan server harus terhubung langsung dengan kabel --tipe-cross ?
